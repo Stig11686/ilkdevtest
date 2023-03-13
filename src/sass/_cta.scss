@@ -1,0 +1,33 @@
+@import 'variables';
+
+#cta {
+    padding: 2rem 3rem;
+    text-align: center;
+
+
+
+    & a {
+        text-decoration: none;
+        color: $black;
+    }
+
+    & p {
+        &:nth-child(1){
+            margin-bottom: 0.2rem;
+        }
+
+        &:nth-child(2){
+            font-size: 12px;
+            color: $ticks-grey;
+        }
+
+        margin-bottom: 1rem;
+    }
+
+    & .cta-link {
+        background-color: $black;
+        color: $white;
+        padding: 5px 20px;
+        text-decoration: underline;
+    }
+}

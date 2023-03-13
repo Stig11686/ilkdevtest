@@ -1,0 +1,28 @@
+@import 'variables';
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    & .logos {
+        & img {
+            max-width: 120px;
+        }
+    }
+
+    & .socials {
+        background-color: $yellow-bg;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        width: 70%;
+        max-width: 500px;
+        font-size: 0.8rem;
+
+        & a {
+            text-decoration: none;
+            color: $black;
+        }
+    }
+}

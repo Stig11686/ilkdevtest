@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    //debug tool!
+    //border: 1px solid red;
+}
+
+html {
+    position: relative;
+}
+
+body {
+    padding: 0 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
